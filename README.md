@@ -59,16 +59,12 @@ _Open the HTML directly via a local server (e.g., `npx serve ./allure-results`) 
 ---
 
 ## Screenshots & Attachments
+![Allure Report](/screenshots/allurereport.png)
+*Snapshot of the Allure report with steps and attachments.*
 
-- **Allure Report**  
-  - Step‑by‑step logs  
-  - Failure screenshots  
-  - HTML latency report attachment  
+![Latency Chart](/screenshots/Latency.htmlscreenshot.png)
+*Rendered latency time‑series chart for trade delays.*
 
-- **Manual Screenshot Support**  
-  Utility functions available for capturing context‑specific screenshots.
-
----
 
 ## Technologies Used
 
