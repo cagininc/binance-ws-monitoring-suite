@@ -59,7 +59,7 @@ _Open the HTML directly via a local server (e.g., `npx serve ./allure-results`) 
 ---
 
 ## Screenshots & Attachments
-![Allure Report](/screenshots/allurereport.png)
+![Allure Report](/screenshots/Allurereport.png)
 *Snapshot of the Allure report with steps and attachments.*
 
 ![Latency Chart](/screenshots/Latency.htmlscreenshot.png)
