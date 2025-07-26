@@ -1,0 +1,4 @@
+Appended latency entry to /Users/caginince/Desktop/BinanceStreamCheck/allure-results/Binance_Trade_Delay_Log.json
+Generated HTML report at /Users/caginince/Desktop/BinanceStreamCheck/allure-results/Latency_Report.html
+Message 1-2 delay: 3105ms
+Message 2-3 delay: 4114ms

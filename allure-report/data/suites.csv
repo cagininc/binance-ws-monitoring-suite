@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3371","Trade message should match JSON schema","","Sat Jul 26 11:20:18 TRT 2025","passed","Sat Jul 26 11:20:21 TRT 2025","","binance/jsonSchemaValidation.spec.ts","",""
+"","3283","Binance trade stream should return valid trade data","","Sat Jul 26 11:20:21 TRT 2025","passed","Sat Jul 26 11:20:24 TRT 2025","","binance/tradeStream.test.ts","",""
+"","10635","should receive at least 3 trade events within time treshold","","Sat Jul 26 11:20:17 TRT 2025","passed","Sat Jul 26 11:20:28 TRT 2025","Binance Tread System Delay Tests","binance/delay.test.ts","",""

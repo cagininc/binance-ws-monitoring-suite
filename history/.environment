@@ -1,0 +1,5 @@
+Browser=Chrome
+Browser.Version=114
+OS=macOS 12.7.6
+Test Environment=Local
+QA Engineer=Cagin Ince

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>WebSocket Latency Report</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h2>Latency Over Test Runs</h2>
+  <canvas id="latencyChart" width="800" height="400"></canvas>
+  <script>
+    // 4. JSON dosyasını fetch ile al
+    fetch('Binance_Trade_Delay_Log.json')
+      .then(res => res.json())
+      .then(data => {
+        // 5. Çizim için etiketler ve değerler
+        const labels = data.map(e => new Date(e.runAt).toLocaleTimeString());
+        const values = data.map(e => e.maxDelay);
+        new Chart(document.getElementById('latencyChart'), {
+          type: 'line',
+          data: {
+            labels,
+            datasets: [{
+              label: 'Max Delay (ms)',
+              data: values,
+              fill: false,
+              tension: 0.1
+            }]
+          },
+          options: {
+            scales: {
+              y: { beginAtZero: true }
+            }
+          }
+        });
+      });
+  </script>
+</body>
+</html>
